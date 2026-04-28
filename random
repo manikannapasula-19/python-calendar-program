@@ -1,0 +1,25 @@
+import random
+p1=input("enter player1: ")
+p2=input("enter player2: ")
+s1=10
+s2=10
+d1=random.randint(1,10)
+d2=ramdom.randint(1,10)
+print("_________player1 turn________ ")
+while("true"):
+    g1=int(input("enter ur guess"))
+    s1=s1-1
+    
+    
+    
+    
+    
+    
+    
+    
+print("_________SUMMARY________")
+print("{}:{}".format(p1,s1))
+print("{}:{}".format(p1,s2))
+print("________result_______")
+if s1>s2:
+    print("Winner is ")
